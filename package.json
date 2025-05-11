@@ -1,0 +1,28 @@
+{
+  "name": "backend-files",
+  "version": "1.0.0",
+  "description": "<!-- Schema = Data kya kya hai/hoga or kesa dikhta/dikhega hai -->\r <!-- \"For Understanding schema better \"\r productSchema= we can think of product and what info it holds like product has name. description, price, category etc  \r  -->",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.2",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^1.4.5-lts.2"
+  }
+}
